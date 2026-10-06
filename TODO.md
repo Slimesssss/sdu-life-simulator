@@ -9,7 +9,7 @@
 
 - [x] Cài **Godot 4.7 stable** (đang dùng `Godot_v4.7.2-stable_win64.exe`) — không dùng bản dev
 - [x] Mở project `sdu-life-simulator`, chạy Godot để quét và tạo cache import
-- [ ] Tạo tài khoản **GitHub**, đẩy project lên (đã có `.gitignore` sẵn) — commit mỗi khi xong 1 việc
+- [x] Tạo tài khoản **GitHub**, đẩy project lên (đã có `.gitignore` sẵn) — commit mỗi khi xong 1 việc
 - [x] Chốt **phạm vi MVP (Lát cắt dọc 1 tuần M0)**: 1 khu trường, 5 hoạt động cốt lõi (`study`, `sleep`, `eat`, `part_time`, `attend_lecture`). Rút `gym` (mở sau tuần 2) và `club` (cần vào Hội trường đăng ký) ra khỏi lát cắt 1 tuần.
 - [x] Quyết định ngôn ngữ hiển thị trong game (**tiếng Việt có dấu**) — bắt buộc dùng font pixel hỗ trợ đầy đủ Unicode tiếng Việt (như Noto Sans Pixel / m5x7 việt hóa). Thử nghiệm trước bằng chuỗi dấu chồng phức tạp như "Ắ Ề Ổ Ữ Ự" trước khi dựng HUD.
 - [ ] Song song với code M0: bắt đầu viết nội dung trong một bảng tính (6 môn học, 10 sự kiện ngẫu nhiên, kịch bản hội thoại cho 3 NPC chính) để tránh dồn ứ nút thắt cổ chai ở M2.
