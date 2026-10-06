@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/course.gd" id="1_course"]
+
+[resource]
+script = ExtResource("1_course")
+id = "it101"
+display_name = "Nhap mon Cong nghe thong tin"
+credits = 3
+required_minutes = 3600
+difficulty = "vua"
+exam_format = "trac_nghiem"
+class_slots = [{
+"minute": 450,
+"weekday": 0
+}, {
+"minute": 450,
+"weekday": 2
+}, {
+"minute": 810,
+"weekday": 4
+}]

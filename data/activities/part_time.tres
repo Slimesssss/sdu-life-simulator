@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/activity.gd" id="1_act"]
+
+[resource]
+script = ExtResource("1_act")
+id = "part_time"
+display_name = "Lam them (trong xe)"
+description = "Bon tieng doi lay mot buoi hoc."
+minutes = 240
+energy_cost = 35.0
+money_cost = 0
+money_gain = 200000
+stat_effects = {
+"mood": -4.0,
+"skill": 1.0
+}
+study_minutes = 0
+course_id = ""
+is_sleep = false

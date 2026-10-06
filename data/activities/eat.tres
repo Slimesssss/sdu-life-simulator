@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/activity.gd" id="1_act"]
+
+[resource]
+script = ExtResource("1_act")
+id = "eat"
+display_name = "An o can tin"
+description = "Mot bua tu te. Thieu bua thi tut suc khoe."
+minutes = 30
+energy_cost = 4.0
+money_cost = 25000
+money_gain = 0
+stat_effects = {
+"mood": 4.0,
+"health": 2.0
+}
+study_minutes = 0
+course_id = ""
+is_sleep = false

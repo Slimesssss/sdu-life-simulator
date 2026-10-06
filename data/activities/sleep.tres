@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/data/activity.gd" id="1_act"]
+
+[resource]
+script = ExtResource("1_act")
+id = "sleep"
+display_name = "Ngu"
+description = "Ngu mot giac, sang hom sau thuc day."
+minutes = 0
+energy_cost = 0.0
+money_cost = 0
+money_gain = 0
+stat_effects = {}
+study_minutes = 0
+course_id = ""
+is_sleep = true
